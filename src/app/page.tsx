@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [showMessage, setShowMessage] = useState(false);
@@ -8,19 +9,21 @@ export default function Home() {
       <div className="relative bg-white shadow-lg rounded-xl p-8 max-w-md text-center space-y-6">
         <h1 className="text-2xl font-semibold text-pink-600">Hi love 💖</h1>
         <p className="text-gray-700">
-          I want you to know that I'm always thinking of you.
+          I want you to know that Im always thinking of you.
           <br />
-          I'm always here for you, and my love for you is eternity. 💘
+          Im always here for you, and my love for you is eternity. 💘
           <br />
         </p>
         <div className="absolute top-38 right-12 text-sm text-gray-500 italic text-right">
           ~ bal
         </div>
         <div className="flex items-center justify-center mt-12 ">
-          <img
+          <Image
+            width={150}
+            height={390}
             src="/my-love.png"
             alt="Us together"
-            className="rounded-lg shadow-md border border-pink-300 h-48"
+            className="rounded-lg shadow-md border border-pink-300 "
           />
         </div>
         {!showMessage && (
