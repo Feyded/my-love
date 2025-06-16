@@ -7,7 +7,7 @@ export const AnotherMessage = () => {
         <h2 className="text-xl font-semibold text-pink-600">To my love 💖</h2>
         <p className="text-gray-700 leading-relaxed">
           Love, I know we’re not together right now, but please know that I’m
-          still here, always thinking of you. I miss you so much.
+          still here. I miss you so much.
           <br />
           <br />
           Take care of yourself for me, okay? Hindi man kita makasama or mayakap
