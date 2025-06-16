@@ -11,7 +11,7 @@ const LoveMessage = () => {
           I miss youuuuuuu! 😭💕
         </h2>
         <p className="text-xl md:text-2xl text-gray-700 italic mt-4">
-          Every second, every heartbeat, you're on my mind. 💘
+          Every second, every heartbeat, youre on my mind. 💘
         </p>
       </div>
     </section>
