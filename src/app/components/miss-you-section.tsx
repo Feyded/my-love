@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoveMessage = () => {
+const MissYouSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 via-rose-300 to-fuchsia-400 px-6">
       <div className="bg-white/50 backdrop-blur-md p-10 md:p-16 rounded-3xl shadow-2xl max-w-2xl text-center animate-fade-in">
@@ -18,4 +18,4 @@ const LoveMessage = () => {
   );
 };
 
-export default LoveMessage;
+export default MissYouSection;
