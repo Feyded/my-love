@@ -6,17 +6,15 @@ export default function Home() {
   const [showMessage, setShowMessage] = useState(false);
   return (
     <div className="min-h-screen bg-pink-100 flex items-center justify-center px-4">
-      <div className="relative bg-white shadow-lg rounded-xl p-8 max-w-md text-center space-y-6">
+      <div className="bg-white shadow-lg rounded-xl p-8 max-w-md text-center space-y-6">
         <h1 className="text-2xl font-semibold text-pink-600">Hi love 💖</h1>
         <p className="text-gray-700">
           I want you to know that Im always thinking of you.
           <br />
-          Im always here for you, and my love for you is eternity. 💘
+          Im always here for you, and my love for you is eternity. 💘 ~ bal
           <br />
         </p>
-        <div className="absolute top-38 right-12 text-sm text-gray-500 italic text-right">
-          ~ bal
-        </div>
+
         <div className="flex items-center justify-center mt-12 ">
           <Image
             width={150}
